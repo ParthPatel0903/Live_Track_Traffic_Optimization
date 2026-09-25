@@ -25,10 +25,10 @@ ADDITIONAL_RED_TIME = 0
 INITIAL_COUNT_DELAY = 0
 
 # Database connection parameters
-DB_NAME = "traffic_analytics"
-DB_USER = "postgres"
-DB_PASSWORD = "123456"
-DB_HOST = "localhost"
+DB_NAME = "YOUR_project_name"
+DB_USER = "YOUR_DB_USER"
+DB_PASSWORD = "YOUR_DB_PASSWORED"
+DB_HOST = "YOUR_DB_HOST"
 DATA_COLLECTION_INTERVAL = 4  # 4 seconds
 
 def get_db_connection():
